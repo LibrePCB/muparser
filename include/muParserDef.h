@@ -74,7 +74,8 @@
   #define MUP_STRING_TYPE std::string
 #endif
 
-#if defined(_DEBUG)
+#if defined(QT_DEBUG)
+  #define _DEBUG
   /** \brief Debug macro to force an abortion of the programm with a certain message.
   */
   #define MUP_FAIL(MSG)     \
