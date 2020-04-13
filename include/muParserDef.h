@@ -25,6 +25,7 @@
 #ifndef MUP_DEF_H
 #define MUP_DEF_H
 
+#include <QtCore>
 #include <iostream>
 #include <string>
 #include <sstream>
@@ -49,7 +50,7 @@
   This datatype must be a built in value type. You can not use custom classes.
   It should be working with all types except "int"!
 */
-#define MUP_BASETYPE double
+#define MUP_BASETYPE qreal
 
 /** \brief Activate this option in order to compile with OpenMP support. 
 
